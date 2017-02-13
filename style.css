@@ -8,8 +8,7 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
-/* basic elements */
-body {
+/* basic elements */body {
 	margin:0;
 	padding:0;
 	background:#273340 url("images/josh-adamski.jpg")no-repeat top right fixed;
@@ -73,12 +72,12 @@ header h1, header h2, .summary p:first-child {display:none;}
 	width:304px;
 	padding:0 45px 0 0;
 	margin:0;
-	font-size:11px;
+	font-size:13px;
 }
 .preamble h3 {
 	background:url("images/josh-adamski.jpg") no-repeat top left;
 	margin:10px 0 0 0;
-	text-indent:0px;
+	text-indent:10px;
 	height:22px;
 }
 .preamble p {
@@ -94,7 +93,7 @@ header h1, header h2, .summary p:first-child {display:none;}
 	background:url("images/josh-adamski.jpg") no-repeat top right;
 	width:292px;
 	height:47px;
-	font-size:11px;
+	font-size:13px;
 	color:#92A0AB;
 	text-align:right;
 	padding:0;
@@ -120,11 +119,11 @@ header h1, header h2, .summary p:first-child {display:none;}
 	margin:10px 0 15px 10px;
 	padding:0;
 	line-height:14px;
-	font-size:11px;
+	font-size:13px;
 }
 .supporting h3 {
 	margin:10px 0 0 0;
-	text-indent:0px;
+	text-indent:10px;
 	height:22px;
 }
 .explanation, .participation, .benefits, .requirements {
@@ -158,7 +157,7 @@ footer {
 	padding:10px;
 	background:#101C28;
 	margin:0 2px 0 0;
-	font-size:10px;
+	font-size:13px;
 	font-weight:normal;
 }
 footer a:link, footer a:active, footer a:visited {
@@ -174,7 +173,7 @@ footer a:hover {
 }
 .design-selection {
 	margin:10px 0 0 0;
-	font-size:10px;
+	font-size:13px;
 }
 .design-selection li {
 	padding:7px 0 7px 15px;
@@ -194,20 +193,20 @@ footer a:hover {
 .design-selection h3 {
 	background:url("images/josh-adamski.jpg") no-repeat top left;
 	height:38px;
-	text-indent:0px;
+	text-indent:10px;
 	width:237px;
 }
 .design-archives h3 {
 	background:url("images/josh-adamski.jpg") no-repeat top left;
 	height:29px;
-	text-indent:0px;
+	text-indent:10px;
 	width:237px;
 	margin:10px 0 0 0;
 }
 .design-archives li {
 	padding:7px 0 7px 15px;
 	color:#909FB1;
-	font-size:10px;
+	font-size:13px;
 }
 .design-archives a:link, .design-archives a:active, .design-archives a:visited {
 	color:#909FB1;
@@ -218,14 +217,14 @@ footer a:hover {
 .zen-resources h3 {
 	background:url("images/josh-adamski.jpg") no-repeat top left;
 	height:29px;
-	text-indent:0px;
+	text-indent:10px;
 	width:237px;
 	margin:10px 0 0 0;
 }
 .zen-resources li {
 	padding:7px 0 7px 15px;
 	color:#909FB1;
-	font-size:10px;
+	font-size:13px;
 }
 .zen-resources a:link, .zen-resources a:active, .zen-resources a:visited {
 	color:#909FB1;
