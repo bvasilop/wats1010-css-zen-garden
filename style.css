@@ -8,10 +8,11 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
-/* basic elements */body {
+/* basic elements */
+body {
 	margin:0;
 	padding:0;
-	background:#273340 url("images/josh-adamski.jpg")no-repeat top right fixed;
+	background:#273340 url("images/josh-adamski.")no-repeat top right fixed;
 	text-align:center;
 	width:100%;
 	height:100%;
@@ -20,6 +21,16 @@
 h1, h2, h3, h4, h5 {
 	padding:0;
 	margin:0;
+}
+h1 {
+	margin: 0 0 0 200px;
+	padding: 20px;
+	font-family: 'Georgia';
+}
+h2 {
+	margin-left: 175px;
+	padding: 10px;
+	
 }
 ul {
 	margin:0;
@@ -33,7 +44,7 @@ abbr:hover {
 }
 /* structural elements */
 .page-wrapper {
-	background:url("images/.jpg") repeat-y;
+	background:url("images/ ") repeat-y;
 	position:relative;
 	margin:0 auto;
 	padding:0 3px;
@@ -45,7 +56,7 @@ abbr:hover {
 	padding:0;
 }
 header {
-	background:url("images/josh-adamski.jpg") no-repeat right;
+	background-color: yellow;
 	height:132px;
 }
 header:hover {
@@ -60,12 +71,13 @@ header:hover {
 	position:absolute; 
 	top:169px;
 	right:2px;
-	margin:0 0 0 359px;
-	background:url("images/josh-adamski.jpg") no-repeat top right;
+	margin:40px 0 0 359px;
+	background:url("images/josh-adamski.") no-repeat top right;
+	border-top:2px solid #506067;
 }
 
 /* intro */
-header h1, header h2, .summary p:first-child {display:none;}
+header h1, header h2, .summary p:first-child {display:}
 .preamble {
 	position:relative;
 	left:0;
@@ -75,10 +87,11 @@ header h1, header h2, .summary p:first-child {display:none;}
 	font-size:13px;
 }
 .preamble h3 {
-	background:url("images/josh-adamski.jpg") no-repeat top left;
+	background:url("images/josh-adamski.") no-repeat top left;
 	margin:10px 0 0 0;
 	text-indent:10px;
 	height:22px;
+	
 }
 .preamble p {
 	color:#919AA4;
@@ -90,7 +103,7 @@ header h1, header h2, .summary p:first-child {display:none;}
 	position:absolute;
 	top:132px;
 	right:2px;
-	background:url("images/josh-adamski.jpg") no-repeat top right;
+	background:url("images/josh-adamski ") no-repeat top right;
 	width:292px;
 	height:47px;
 	font-size:13px;
@@ -100,8 +113,10 @@ header h1, header h2, .summary p:first-child {display:none;}
 	margin:0;
 }
 .summary p {
-	margin:10px 20px 0 0;
+	margin: 5px 20px 650px 20px;
 }
+
+
 .summary a:link, .summary a:active, .summary a:visited {
 	color:#92A0AB;
 	text-decoration:none;
@@ -130,16 +145,16 @@ header h1, header h2, .summary p:first-child {display:none;}
 	padding:0 45px 0 0;
 }
 .explanation h3 {
-	background:url("images/josh-adamski.jpg") no-repeat top left;
+	background:url("images/josh-adamski.") no-repeat top left;
 }
 .participation h3 {
-	background:url("images/josh-adamski.jpg") no-repeat top left;
+	background:url("images/josh-adamski ") no-repeat top left;
 }
 .benefits h3 {
-	background:url("images/josh-adamski.jpg") no-repeat top left;
+	background:url("images/josh-adamski ") no-repeat top left;
 }
 .requirements h3 {
-	background:url("images/josh-adamski.jpg") no-repeat top left;
+	background:url("images/josh-adamski ") no-repeat top left;
 }
 .supporting a:link, .supporting a:active, .supporting a:visited {
 	color:#919AA4;
@@ -191,17 +206,18 @@ footer a:hover {
 	text-decoration:none;
 }
 .design-selection h3 {
-	background:url("images/josh-adamski.jpg") no-repeat top left;
+	background:url("images/josh-adamski ") no-repeat top left;
 	height:38px;
 	text-indent:10px;
 	width:237px;
+	
 }
 .design-archives h3 {
-	background:url("images/josh-adamski.jpg") no-repeat top left;
+	background:url("images/josh-adamski ") no-repeat top left;
 	height:29px;
 	text-indent:10px;
 	width:237px;
-	margin:10px 0 0 0;
+	
 }
 .design-archives li {
 	padding:7px 0 7px 15px;
@@ -215,7 +231,7 @@ footer a:hover {
 	color:#f50;
 }
 .zen-resources h3 {
-	background:url("images/josh-adamski.jpg") no-repeat top left;
+	background:url("images/josh-adamski ") no-repeat top left;
 	height:29px;
 	text-indent:10px;
 	width:237px;
