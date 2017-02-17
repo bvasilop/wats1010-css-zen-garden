@@ -8,8 +8,7 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
-/* basic elements *///
-body {
+/* basic elements */ body {
 	margin:0;
 	padding:0;
 	background: url(images/oswaldo-martinez.jpg) no-repeat fixed;
@@ -22,21 +21,21 @@ body {
     -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration:7s;
-		animation-iteration-count: infinite;
+		animation-iteration-count: 2;
 
 
 }
 
-}
+
 @-webkit-keyframes example {
     from {background: url(images/oswaldo-martinez-redo.jpg) no-repeat fixed;}
-    to {background: url(images/oswaldo-martinez.jpg) no-repeat fixed;}
+    to {background: url( oswaldo-martinez.jpg) no-repeat fixed;}
+
 
 }
 
-}
 
-}
+
 h1, h2, h3, h4, h5 {
 	padding:0;
 	margin:0;
@@ -64,14 +63,13 @@ abbr:hover {
 }
 /* structural elements */
 .page-wrapper {
-	background:url("images/ ") repeat-y;
+
+background:url("images/ ") repeat-y;
 	position:relative;
 	margin:0 auto;
 	padding:0 3px;
 	width:680px;
 	text-align:left;
-
-
 
 
 
@@ -83,6 +81,11 @@ header {
 	background-color;
 	z-index: .1;
 	height:132px;
+	position: relative;
+
+
+
+
 }
 header:hover {
 	background-position: 0 -132px;
