@@ -65,7 +65,7 @@ abbr:hover {
 /* structural elements */
 .page-wrapper {
 
-background:url("images/ ") repeat-y;
+/*background:url("images/ ") repeat-y;*/
 	position:relative;
 	margin:0 auto;
 	padding:0 3px;
