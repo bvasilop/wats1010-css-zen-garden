@@ -12,11 +12,11 @@
 body {
 	margin:0;
 	padding:0;
-	background: url(images/oswaldo-martinez.jpg) no-repeat fixed;
+	background: url("images/oswaldo-martinez.jpg") no-repeat fixed;
 	text-align:center;
 	width:100%;
 	height:100%;
-	font-family:'verdana',serif,sans-serif";
+	font-family:'verdana',serif,sans-serif;
 
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
@@ -29,8 +29,8 @@ body {
 
 
 @-webkit-keyframes example {
-    from {background: url(images/oswaldo-martinez-redo.jpg) no-repeat fixed;}
-    to {background: url(images/oswaldo-martinez.jpg) no-repeat fixed;}
+    from {background: url("images/oswaldo-martinez-redo.jpg") no-repeat fixed;}
+    to {background: url("images/oswaldo-martinez.jpg") no-repeat fixed;}
 
 
 }
