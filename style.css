@@ -10,14 +10,14 @@
 
 /* basic elements */
 html {
-    background: url('oswaldo-martinez-redo.jpg') no-repeat;
+    background: url('oswaldo-martinez.jpg') no-repeat fixed;
     -webkit-animation: myothermove 25s infinite; /* Chrome, Safari, Opera */
     background-size: 100%;
 }
 
 @-webkit-keyframes myothermove {
-   from {background: url('oswaldo-martinez-redo.jpg') no-repeat ;}
-   to {background: url('oswaldo-martinez.jpg') no-repeat ;}
+   from {background: url('oswaldo-martinez-redo.jpg') no-repeat fixed;}
+   to {background: url('oswaldo-martinez.jpg') no-repeat fixed;}
 }
 
 body {
@@ -57,12 +57,14 @@ abbr:hover {
 /* structural elements */
 
 .page-wrapper {
-
+	border:2px solid #506067;
+	border-radius:.5em;
 	position:relative;
 	margin:0 auto;
 	padding:0 3px;
 	width:680px;
 	text-align:left;
+	background: url(josh-adamski.jpg);
 
 }
 .intro {
