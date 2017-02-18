@@ -64,7 +64,9 @@ abbr:hover {
 	padding:0 3px;
 	width:680px;
 	text-align:left;
-	background: url('josh-adamski.jpg');
+	background: rgba(300, 64, 14, 0.5);
+
+}
 
 }
 .intro {
