@@ -11,7 +11,7 @@
 /* basic elements */
 html {
     background: url('oswaldo-martinez.jpg') no-repeat fixed;
-    -webkit-animation: myothermove 25s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation: myothermove 60s infinite; /* Chrome, Safari, Opera */
     background-size: 100%;
 }
 
@@ -61,10 +61,11 @@ abbr:hover {
 	border-radius:.5em;
 	position:relative;
 	margin:0 auto;
-	padding:0 3px;
+	padding:0 0px;
 	width:680px;
 	text-align:left;
 	background: rgba(300, 254, 4, 0.5);
+	z-index: .1;
 
 }
 
@@ -73,7 +74,10 @@ abbr:hover {
 	padding:0;
 }
 header {
-
+	background: url('josh-adamski.jpg') no-repeat fixed;
+	background-size: 100%;
+	border:2px solid #506067;
+	border-radius:.5em;
 	z-index: .1;
 	height:125px;
 	position: relative;
