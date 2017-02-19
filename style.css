@@ -11,7 +11,7 @@
 /* basic elements */
 html {
     background: url('oswaldo-martinez.jpg') no-repeat fixed;
-    -webkit-animation: myothermove 60s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation: myothermove 30s infinite; /* Chrome, Safari, Opera */
     background-size: 100%;
 }
 
@@ -80,11 +80,11 @@ header {
 	border-radius:.5em;
 	z-index: .1;
 	height:125px;
-	position: relative;
+
 
 }
 header:hover {
-	background-position: 0 -132px;
+	background-position: -49px -385px;
 }
 .supporting {
 	position:relative;
