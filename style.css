@@ -140,9 +140,21 @@ header:hover {
 	line-height:14px;
 }
 .summary p {
-	margin: 719px 1px 556px 46px;
+	margin: 862px 6px -10px -20px;
+	padding: 5px;
+	border:1px solid #506067;
+	border-radius:.25em;
+	background: url('images/buddha-image.jpg') no-repeat fixed;
+	background-size: 100%;
 }
 
+.summary p:nth-child(2) {
+
+position : relative;
+margin: 852px 6px 10px -20px;
+top : 3em;
+font-size : 12px;
+}
 
 .summary a:link, .summary a:active, .summary a:visited {
 	color:#5D6772;
