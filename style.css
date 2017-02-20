@@ -193,6 +193,7 @@ font-size : 12px;
 .supporting a:link, .supporting a:active, .supporting a:visited {
 	color:#5D6772;
 	font-weight:bold;
+	font-style:italic;
 }
 .supporting a:hover {
 	color:#f50;
