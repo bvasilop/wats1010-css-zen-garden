@@ -11,7 +11,7 @@
 /* basic elements */
 html {
     background: url('oswaldo-martinez.jpg') no-repeat fixed;
-    -webkit-animation: myothermove 30s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation: myothermove 15s infinite; /* Chrome, Safari, Opera */
     background-size: 100%;
 }
 
@@ -28,6 +28,7 @@ body {
 	height:100%;
 	font-family:'verdana',serif,sans-serif;
 	z-index: .1;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -138,21 +139,25 @@ header:hover {
 	padding:0;
 	margin:0;
 	line-height:14px;
+
 }
 .summary p {
+
 	font-size : 30px;
 	font-weight: bold;
+	font-style: italic;
 	line-height: 40px;
 	color: #101C28;
 	text-align: left;
 	margin: 878px -2px -10px -20px;
 	padding: 5px;
 
+
 }
 .summary p:nth-child(2) {
 
 position : relative;
-margin: 795px 10px 6px 6px;
+margin: 466px -41px 0px -19px;
 top : 3em;
 font-size : 12px;
 }
